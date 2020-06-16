@@ -1,0 +1,42 @@
+{
+    "name": "rezaulcsembstu/mp",
+    "description": "Map",
+    "keywords": [
+        "rezaulcsembstu",
+        "mp"
+    ],
+    "homepage": "https://github.com/rezaulcsembstu/mp",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "MD. Rezaul Islam",
+            "email": "rezaul.cse.mbstu@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rezaulcsembstu\\Mp\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rezaulcsembstu\\Mp\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
